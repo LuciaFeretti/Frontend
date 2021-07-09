@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Karla:wght@400;500;700&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+
+/***** Header *****/
+header{
+    width: 100vw;
+    height: 15vh;
+}
+.upperHeader{
+    background:#1CD1B0;
+    height: 5vh;
+    padding-bottom: 0;
+}
+.upperHeaderText{
+    padding: 5px;
+    padding-left: 1vw;
+    font-size: 2vh;
+}
+.bottomHeader{
+    background: #00669F;
+    height: 10vh;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    padding: 6px;
+}
+
+/***** Main *****/
+main{
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    padding: 20vh 33vw;
+}
+
+h1{
+    margin: 0% 0% 5% 1%;
+}
+
+form ::placeholder, select{
+    color: #000000;
+    font-size: 2vh;
+    padding: 1%;
+}
+
+input, select{
+    width: 100%;
+    height: 25px;
+    margin: 1%;
+}
+
+button{
+    width: 100%;
+    height: 27px;
+    margin: 6% 0% 4% 1%;
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#botonResetear{
+    background-color: #888888;
+    color: #FFFFFF;
+}
+
+main p{
+    text-align: center;
+    font-size: 2.5vh;
+    
+    color: #333333;
+}
+
+a{
+    text-decoration: none;
+    color: #0073e6;
+}
+
+/***** Footer *****/
+footer{
+    background-color: #00669F;
+}
+
+footer p{
+    color: #FFF9F9;
+    text-align: center;
+    font-size: 2vh;
+    padding: 1%;
+}

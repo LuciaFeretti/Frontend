@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginRegisterStyle.css">
+    <link rel="stylesheet" href="register.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="upperHeader">
+            <p class="upperHeaderText">20% de descuento en todos los productos!</p>
+        </section>
+        <section class="bottomHeader">
+            <img src="img/Logo SVG.png" alt="Logo">
+            <h2>Nombre Tienda</h1>
+        </section>
+    </header>
+    <main>
+        <h1>Registro</h1>
+        <form action="registro" method="POST">
+            <section>
+                <input type="text" placeholder="Nombre y Apellido">
+                <input type="email" placeholder="Correo Electrónico">
+                <input type="password" placeholder="Contraseña">
+                <select name="" id="" aria-placeholder="País">
+                    <option hidden selected>País</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="brasil">Brasil</option>
+                </select>
+            </section>
+            <br>
+            <section id="botones">
+                <button id="botonResetear" type="reset">Resetear</button>
+                <button type="submit">Registrar</button>
+            </section>
+        </form>
+        <p>¿Ya tenés una cuenta? <a href="loginIndex.html">Ingresar</a></p>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

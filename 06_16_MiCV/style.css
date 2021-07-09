@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/***** HEADER *****/
+header {
+    background-image: url(./img/fondo3.jpg);
+    text-align:center 
+}
+
+a {
+    color:black;
+}
+
+img {
+    width: 117px;
+    height: 150px;
+}
+
+/***** MAIN *****/
+h2{
+    color: #FFC012;
+}
+
+
+div{
+    text-align: center;
+}
+
+.items{
+    font-weight: bold;
+}
+
+hr{
+    background-color: #FFC012;
+}
+
+/***** FOOTER *****/
+[src*="ico"]{
+    width: 50px;
+    height: 50px;
+}
+
+/***** SOBRE MI PAGINA *****/
+.otraPag{
+    text-align: center;
+    color: rgba(110, 37, 228, 0.445);
+}
