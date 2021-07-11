@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Karla:wght@400;500;700&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, ::placeholder{
+    font-family: Roboto, sans-serif;
+}
+
+/***** Header *****/
+header{
+    width: 100vw;
+    height: 15vh;
+}
+.upperHeader{
+    background:#1CD1B0;
+    height: 5vh;
+    padding-bottom: 0;
+}
+.upperHeaderText{
+    padding: 5px;
+    padding-left: 1vw;
+    font-size: 2vh;
+}
+.bottomHeader{
+    background: #00669F;
+    height: 10vh;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    padding: 6px;
+}
+.bottomBottomHeader{
+    background-color: #001D2D;
+    text-align: right;
+    font-size: 2.5vh;
+    height: 5vh;
+    padding: 0.5%;
+}
+.bottomBottomHeader a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+/***** Main *****/
+main{
+    background-color: #00669F;
+    border-radius: 15px;
+    color: #FBFFFD;
+    margin: 5% 15%;
+    padding: 1% 7%;
+}
+h1, h5{
+    text-align: center;
+}
+h5{
+    font-weight: lighter;
+}
+select{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+}
+form{
+    display: flex;
+    flex-wrap: nowrap;  
+}
+label, input, textarea, select, option{
+    width: 95%;
+    margin: 2.5%;
+    border: none;
+    border-radius: 5px;
+    padding: 3%;
+}
+.inputs{
+    height: 7vh;
+}
+.poderes, .personaje{
+    width: auto;
+    margin: auto;
+} 
+hr{
+    height: 1px;
+    border: 0;
+    background-color: white;
+}
+button{
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font-size: 6vh;
+    margin: 0% 20%;
+    width: 60%;
+    padding: 2%;
+}
+button:hover{
+    background-color: #12FFA2;
+}
+textarea:hover, select:hover, input:not(#archivos):hover{
+    background-color: #DFDFDF;
+    border:black;
+}
+
+/***** Footer *****/
+footer{
+    background-color: #00669F;
+}
+footer p{
+    color: #FFF9F9;
+    text-align: center;
+    font-size: 2vh;
+    padding: 1%;
+}

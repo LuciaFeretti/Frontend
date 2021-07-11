@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #F3F3F3;
+}
+
+/***** HEADER *****/
+.descuentos, footer{
+    height: 6vh;
+    padding: 1.5vh 2vh;
+    font-size: 2.5vh;
+} 
+.descuentos {
+    background-color: rgba(28, 209, 176, 1);
+}
+#titulo{
+    background-color: rgba(0, 102, 159, 1);
+    height: 50px;
+    padding: 2vh 4vh;
+}
+
+/***** MAIN *****/
+main{
+    padding: 15vh 3vw;
+}
+article{
+    background-color: #E5E5E5;
+    max-width: 300px;
+    max-height: 800px;
+    position: relative;
+    z-index: -2;
+    border-radius: 15px;
+}
+img{
+    position: relative;
+}
+.articleHeaderfondo{
+    max-width: 300px;
+    z-index: -1;
+}
+.articleCorazon{
+    position: absolute;
+    left: 6px;
+    padding: 2vh;
+}
+.articlePersonaje{
+    position: absolute;
+    border-radius: 50%;
+    left: 85px;
+    top: 130px;
+    box-shadow: black;
+}
+article section{
+    padding: 13vh 1.5vw;
+}
+article section h2{
+    text-align: center;
+    line-height: 10vh;
+}
+button{
+    background-color: #00669F;
+    color: #F3F3F3;
+    border: none;
+    width: 128.78px;
+    height: 40px;
+    position: relative;
+    left: 70px;
+    top: 25px;
+}
+#personaje2, #personaje3{
+    top: 150px;
+}
+#personaje2{
+    position: absolute;
+    left: 350px;
+}
+#personaje3{
+    position: absolute;
+    left: 675px;
+
+}
+
+
+
+
+
+/***** FOOTER *****/
+footer{
+    background-color: #00669F;
+    color: #FFF9F9;
+    height: 6vh;
+    padding: 1.5vh 2vh;
+    font-size: 2.5vh;
+}
