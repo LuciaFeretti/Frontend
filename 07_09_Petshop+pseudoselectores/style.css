@@ -125,7 +125,7 @@ form h2{
     color: rgba(60, 35, 19, 1);
     font-weight: bolder;
 }
-main input, button{
+input, button{
     border-radius: 15px;
     border: none;
     height: 6vh;
@@ -142,7 +142,7 @@ input::placeholder{
 input:hover{
     background-color: rgb(149, 91, 54)
 }
-main button{
+button{
     background: orange;
     color: white;
     padding: 1vh;
@@ -184,6 +184,16 @@ footer{
 }
 main h2::first-letter{
     font-size: 8vh;
+}
+footer form{
+    display: flex;
+    flex-direction: row;
+}
+footer button{
+    background: rgba(60, 35, 19, 1);
+}
+footer button:hover{
+    background: rgb(149, 91, 54)
 }
 
 /* Segundo section */
