@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #F3F3F3;
+}
+
+/***** HEADER *****/
+.descuentos, footer{
+    height: 6vh;
+    padding: 1.5vh 2vh;
+    font-size: 2.5vh;
+} 
+.descuentos {
+    background-color: rgba(28, 209, 176, 1);
+}
+#titulo{
+    background-color: rgba(0, 102, 159, 1);
+    height: 50px;
+    padding: 2vh 4vh;
+}
+
+/***** MAIN *****/
+main{
+    padding: 15vh 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article{
+    background-color: #E5E5E5;
+    max-width: 300px;
+    height: 600px;
+    position: relative;
+    z-index: -2;
+    border-radius: 15px;
+    margin: 20px;
+}
+img{
+    position: relative;
+}
+.articleHeaderfondo{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    max-width: 300px;
+    z-index: -1;
+}
+.articleCorazon{
+    position: absolute;
+    left: 6px;
+    padding: 2vh;
+}
+.articlePersonaje{
+    position: absolute;
+    border-radius: 50%;
+    left: 85px;
+    top: 130px;
+    box-shadow: black;
+    /* height: auto; 
+    width: auto; 
+    max-width: 120px;  */
+}
+#supermanCelular{
+    display: none;
+}
+#superman, #mujerMaravilla, #supermanCelular{
+    background-size: 50%;
+    background-position: top center;
+    width: 40%;
+    height: auto;
+}
+article section{
+    padding: 13vh 1.5vw;
+}
+article section h2{
+    text-align: center;
+    line-height: 10vh;
+}
+button{
+    background-color: #00669F;
+    color: #F3F3F3;
+    border: none;
+    width: 128.78px;
+    height: 40px;
+    position: relative;
+    left: 70px;
+    bottom: -100px;
+}
+.botonMM{
+    bottom: -38px;
+}
+.botonSM{
+    bottom: -75px;
+}
+
+/***** FOOTER *****/
+footer{
+    background-color: #00669F;
+    color: #FFF9F9;
+    height: 6vh;
+    padding: 1.5vh 2vh;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+/***** MEDIAS QUIERIES *****/
+@media screen and (max-width: 480px){
+    #superman{
+        display: none;
+    }
+    #supermanCelular{
+        display: block;
+    }
+    .botonSM{
+        bottom: -50px;
+    }
+}
+
