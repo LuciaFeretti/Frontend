@@ -17,9 +17,9 @@
             <h2>Nombre Tienda</h1>
         </section>
         <section class="bottomBottomHeader">
-            <span><a href="">Contacto</a></span>
-            <span><a href="">Registrarme</a></span>
-            <span><a href="">Ingresar</a></span>
+            <span><a href="" tabindex="-1">Contacto</a></span>
+            <span><a href="" tabindex="-1">Registrarme</a></span>
+            <span><a href="" tabindex="-1">Ingresar</a></span>
         </section>
     </header>
     <main>
@@ -28,17 +28,17 @@
         <form action="login" method="POST">
             <section>
                 <label for="nombre">*Nombre</label>
-                <input class="inputs" type="text" id="nombre">
+                <input class="inputs" type="text" id="nombre" tabindex="1">
                     
                 <label for="fecha">Fecha</label>
-                <input class="inputs" type="date" id="fecha">
+                <input class="inputs" type="date" id="fecha" tabindex="3">
                     
-                <textarea name="" id="" cols="30" rows="10" placeholder="Descripcion"></textarea>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Descripcion" tabindex="4"></textarea>
             </section>
             
             <section>
                 <label for="especie">*Especie</label>
-                <select class="inputs" name="especie" id="especie">
+                <select class="inputs" name="especie" id="especie" tabindex="2">
                     <option disabled selected>Especie</option>
                     <option value="amazonas">Amazonas</option>
                     <option value="atlantes">Atlantes</option>
@@ -49,22 +49,22 @@
                 </select>
                 
                 <label for="archivos">Agregar Foto</label>
-                <input id="archivos"class="inputs" type="file">
+                <input id="archivos"class="inputs" type="file" tabindex="-1">
                 
                 <label for="poderes" class="poderes">Poderes</label>
                 <ul type="none">
-                    <li><input type="checkbox" class="poderes">Volar</li>
-                    <li><input type="checkbox" class="poderes">Super Inteligencia</li>
-                    <li><input type="checkbox" class="poderes">Vista de rayo láser</li>
-                    <li><input type="checkbox" class="poderes">Billetera gorda</li>
+                    <li><input type="checkbox" class="poderes" tabindex="5">Volar</li>
+                    <li><input type="checkbox" class="poderes" tabindex="6">Super Inteligencia</li>
+                    <li><input type="checkbox" class="poderes" tabindex="7">Vista de rayo láser</li>
+                    <li><input type="checkbox" class="poderes" tabindex="8">Billetera gorda</li>
                 </ul>
                 <br>
                 <hr>
                 <br>
                 <label for="personaje">Personsaje</label>
                 <ul type="none" >
-                    <li><input name="personaje"type="radio" class="personaje" >Héroe / Heroina</li>
-                    <li><input name="personaje" type="radio" id="personsaje" class="personaje" >Villano / Villana</li>
+                    <li><input name="personaje"type="radio" class="personaje" tabindex="9">Héroe / Heroina</li>
+                    <li><input name="personaje" type="radio" id="personsaje" class="personaje" tabindex="10">Villano / Villana</li>
                 </ul>
             </section>
         </form>
