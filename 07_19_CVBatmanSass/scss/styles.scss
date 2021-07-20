@@ -1,0 +1,48 @@
+@import 'variables';
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/***** HEADER *****/
+header{
+    div{
+        text-align: center;
+        background-color: $color-fondo;
+        margin: 0px;
+        }
+}
+
+
+/***** MAIN *****/
+main{
+    h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    h1, h2{
+        color: $color-titulos;
+        background-color: $color-fondo;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: bold;
+    }
+    article{
+        ul{
+            li{
+                font-style: italic;
+            }
+            span{
+                font-weight: bold;
+            }
+        }
+
+    }   
+}
+
+/***** FOOTER *****/
+footer{
+    background-color:#005677;
+    text-align: center;
+    color: $color-footer;   
+}
