@@ -1,0 +1,16 @@
+$color-fondo: #ffffff;
+$color-principal: #03faee;
+$color-parrafo: #969ba5;
+$color-texto: #000000;
+$color-tarjetas: #f8f8f8;
+
+@mixin circuloConSombra{
+    border: solid;
+    border-radius: 50%;
+    border-width: 0.5px;
+    box-shadow: -4px 0px 0px $color-principal;
+}
+@mixin lineaDeColor {
+    background-color: $color-principal;
+    position: absolute;
+}

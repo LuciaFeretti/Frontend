@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/***** HEADER *****/
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2vw 5vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3vw;
+  list-style: none;
+}
+
+header a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/***** MAIN *****/
+main {
+  margin: 2vw 5vw;
+}
+
+.parte1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.parte1Derecha {
+  padding: 10vh 0 0 0;
+}
+
+.parte1Derecha p {
+  font-size: 4vh;
+  padding: 3vh 0 5vh;
+  color: #969ba5;
+}
+
+.parte1Derecha div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+
+h1 span {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15vh;
+  font-weight: bolder;
+}
+
+button {
+  background-color: #03faee;
+  border: dashed;
+  border-radius: 10px;
+  border-width: 0.5px;
+  font-size: 2.7vh;
+  height: 10vh;
+  width: 10vw;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.contenedorTarjetas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin: 3vw 0;
+}
+
+.tarjetas {
+  background-color: #f8f8f8;
+  height: 20vw;
+  padding: 2vw;
+  width: 25vw;
+  border-radius: 10px;
+}
+
+.tarjetas h3 {
+  position: relative;
+  z-index: 1;
+}
+
+.tarjetas span {
+  border: solid;
+  border-radius: 50%;
+  border-width: 0.5px;
+  -webkit-box-shadow: -4px 0px 0px #03faee;
+          box-shadow: -4px 0px 0px #03faee;
+  padding: 2vh 3vh;
+  position: relative;
+  left: -3vh;
+}
+
+.lineaColorTitulo {
+  background-color: #03faee;
+  position: absolute;
+  width: 15vw;
+  height: 10vh;
+}
+
+.lineaColorTarjetas {
+  background-color: #03faee;
+  position: absolute;
+  width: 4vh;
+  height: 2vh;
+}
+
+/***** FOOTER *****/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5vw 5vw 2vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer a {
+  border: solid;
+  border-radius: 50%;
+  border-width: 0.5px;
+  -webkit-box-shadow: -4px 0px 0px #03faee;
+          box-shadow: -4px 0px 0px #03faee;
+  border-color: white;
+  padding: 1vh 1.5vh;
+}
+
+.contenedorIconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.icono {
+  height: auto;
+  width: 2vw;
+}
+
+#facebook {
+  width: 1.4vw;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */
